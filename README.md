@@ -30,7 +30,7 @@ Anticipated data sources to include the following:
 
 * Wikipedia ([click here](https://upload.wikimedia.org/wikipedia/commons/5/54/Is-Akureyri.oga) for an example of place name pronunciation data from Wikipedia)
 * [Natural Earth](http://www.naturalearthdata.com/)
-* [NGA Names Server](http://geonames.nga.mil/gns/html/index.html)
+* [NGA GEOnet Names Server](http://geonames.nga.mil/gns/html/index.html)
 * [Equal Earth Area Projection](https://observablehq.com/@d3/equal-earth)
 
 Anticipated tools for data manipulation and analysis include the following:
@@ -42,7 +42,9 @@ Anticipated tools for data manipulation and analysis include the following:
 * Pandas
 * Geopandas
 
-Medium for delivery text goes here
+Front-end data for the web map will be produced as a GeoJSON-CSV stack.
+
+The web map will be accessible via a web browser on both desktop and mobile devices. The anticipated technology stack for the web map is HTML-CSS-JS-Leaflet, as well as any necessary JS libraries. For example, the web map will need a library for a universal search bar.
 
 Application layout goes here
 
