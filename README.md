@@ -1,7 +1,7 @@
-# The Spoken World
+# THE SPOKEN WORLD
 An interactive worldwide map of place name pronunciations.
 
-## MAPPING PROJECT PROPOSAL
+## Mapping Project Proposal
 
 **Introduction**
 
