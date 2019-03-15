@@ -48,11 +48,11 @@ The web map will be accessible via a web browser on both desktop and mobile devi
 
 ![uni search bar](/images/search-bar.png "Universal Search Bar Mockup")
 
-Desktop wireframe:
+Desktop wireframe for the splash page:
 
 ![desktop splash page](/images/splash-page-mockup.png "Splash Page on Desktop")
 
-Thematic representation goes here
+Data on the map will be visualized as polygon and point features. A muted, mono-color styling will be applied to continent-level polygon features. A classified choropleth styling will be applied to country-level polygon features, as in a political map. Point features will be symbolized proportionally by population size.
 
 User interaction goes here
 
