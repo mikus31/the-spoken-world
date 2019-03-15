@@ -48,13 +48,11 @@ The web map will be accessible via a web browser on both desktop and mobile devi
 
 ![uni search bar](/images/search-bar.png "Universal Search Bar Mockup")
 
-Desktop wireframe for the splash page:
-
-![desktop splash page](/images/splash-page-mockup.png "Splash Page on Desktop")
-
 Data on the map will be visualized as polygon and point features. A muted, mono-color styling will be applied to continent-level polygon features. A classified choropleth styling will be applied to country-level polygon features, as in a political map. Point features will be symbolized proportionally by population size.
 
 Users will be invited to interact with the map immediately on the splash page. The search bar will feature prominently on the center of the screen, encouraging users to begin by typing in a place name. Alternatively, the user will be given the option to explore the map manually by clicking a button beneath the search bar to bypass the search functionality.
+
+![desktop splash page](/images/splash-page-mockup.png "Splash Page on Desktop")
 
 Aesthetically, the plan is to use web services to drive the design of the map. Anticipated services to include the following:
 
