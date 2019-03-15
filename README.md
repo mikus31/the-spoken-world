@@ -1,7 +1,5 @@
 # The Spoken World
 An interactive worldwide map of place name pronunciations.
-By Michael McNeil for [New Maps Plus](https://newmapsplus.as.uky.edu/) at the University of Kentucky.
-2019-03-15
 
 ## MAPPING PROJECT PROPOSAL
 
@@ -28,3 +26,7 @@ User interaction goes here
 Aesthetics and design considerations goes here
 
 **Conclusion**
+
+Text goes here
+
+*Mapping project proposal by Michael McNeil for [New Maps Plus](https://newmapsplus.as.uky.edu/) at the University of Kentucky.*
