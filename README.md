@@ -54,6 +54,8 @@ Users will be invited to interact with the map immediately on the splash page. T
 
 ![desktop splash page](/images/splash-page-mockup.png "Splash Page on Desktop")
 
+After zooming into the map to the country level, place names will appear. Users will be able to click on these place names. A popup will appear with information about the place, including a pronunciation file that can be played.
+
 Aesthetically, the plan is to use web services to drive the design of the map. Anticipated services to include the following:
 
 * [ColorSupplyyy](https://colorsupplyyy.com/app)
