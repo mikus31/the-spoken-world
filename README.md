@@ -46,6 +46,8 @@ Front-end data for the web map will be produced as a GeoJSON-CSV stack.
 
 The web map will be accessible via a web browser on both desktop and mobile devices. The anticipated technology stack for the web map is HTML-CSS-JS-Leaflet, as well as any necessary JS libraries. For example, the web map will need a library for a universal search bar.
 
+![uni search bar](/images/search-bar.png "Universal Search Bar Mockup")
+
 Application layout goes here
 
 Thematic representation goes here
