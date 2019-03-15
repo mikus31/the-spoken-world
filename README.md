@@ -65,7 +65,9 @@ The overall aesthetic will be a simple design with bright, contemporary colors a
 
 **Conclusion**
 
-Text goes here
+In college, my wife Sarah did a National Student Exchange program at the University of Hawaii-Hilo one semester. She learned about Hawaiian food and culture while on the "Big Island" and also a little about Hawaiian language. When I told her about this project, she mentioned that Hawaiians can discern what island a fellow Hawaiian is from by how they pronounce place names.
+
+Place names are personal to us, both in terms of what names are chosen for places and how we pronounce those names. Names and their pronunciations are local. And at the same time, though it seems contradictory on the surface, global as well.
 
 ---
 *Mapping project proposal by Michael McNeil for [New Maps Plus](https://newmapsplus.as.uky.edu/) at the [University of Kentucky](http://www.uky.edu/UKHome/).*
