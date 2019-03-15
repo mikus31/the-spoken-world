@@ -54,9 +54,14 @@ Desktop wireframe for the splash page:
 
 Data on the map will be visualized as polygon and point features. A muted, mono-color styling will be applied to continent-level polygon features. A classified choropleth styling will be applied to country-level polygon features, as in a political map. Point features will be symbolized proportionally by population size.
 
-User interaction goes here
+Users will be invited to interact with the map immediately on the splash page. The search bar will feature prominently on the center of the screen, encouraging users to begin by typing in a place name. Alternatively, the user will be given the option to explore the map manually by clicking a button beneath the search bar to bypass the search functionality.
 
-Aesthetics and design considerations goes here
+Aesthetically, the plan is to use web services to drive the design of the map. Anticipated services to include the following:
+
+* [ColorSupplyyy](https://colorsupplyyy.com/app)
+* [Google Fonts](https://fonts.google.com/)
+
+The overall aesthetic will be a simple design with bright, contemporary colors and modern, complementary fonts. The user will be given the option to toggle between light and dark modes.
 
 **Conclusion**
 
