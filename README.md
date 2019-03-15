@@ -29,4 +29,4 @@ Aesthetics and design considerations goes here
 
 Text goes here
 
-*Mapping project proposal by Michael McNeil for [New Maps Plus](https://newmapsplus.as.uky.edu/) at the University of Kentucky.*
+*Mapping project proposal by Michael McNeil for [New Maps Plus](https://newmapsplus.as.uky.edu/) at the [University of Kentucky](http://www.uky.edu/UKHome/).*
