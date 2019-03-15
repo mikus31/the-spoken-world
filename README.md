@@ -13,7 +13,7 @@ And discouragingly I could not help him! This problem bothered me relentlessly f
 
 Think about the importance of place names for a second. What we name our places matters deeply to all of us on a local level. It speaks to our culture, and it tells the rest of the world something about us. But how we pronounce our places is just as important too, and indicative of our geographical identity.
 
-For example, take the city of New Orleans. There are a number of pronunciations out in the world, including:
+For example, take the city of New Orleans. There are a number of pronunciations of New Orleans out there in the world, including:
 
 * new or-leens
 * new or-lee-ins 
@@ -22,7 +22,7 @@ For example, take the city of New Orleans. There are a number of pronunciations 
 
 However, only one of these pronunciations is acceptable on the local level: The latter pronunciation. A New Orleanian can tell if you are (a) likely from the city or (b) likely a tourist immediately by how you pronounce New Orleans.
 
-Pronunciation is personal, and it is local. It also is a global phenomenon, in that this anecdotal example of New Orleans plays out all over the globe across all scales of geography.
+Pronunciation is personal, and it is local. It also is a global phenomenon, in that this anecdotal example of New Orleans plays out all over the globe across all scales of geography. This mapping project is an effort to elevate local pronunciations to a global audience.
 
 **Methodology**
 
