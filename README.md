@@ -48,7 +48,9 @@ The web map will be accessible via a web browser on both desktop and mobile devi
 
 ![uni search bar](/images/search-bar.png "Universal Search Bar Mockup")
 
-Application layout goes here
+Desktop wireframe:
+
+![desktop splash page](/images/splash-page-mockup.png "Splash Page on Desktop")
 
 Thematic representation goes here
 
