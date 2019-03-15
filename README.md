@@ -1,5 +1,7 @@
 # The Spoken World
-A crowd-sourced worldwide map of place name pronunciations
+An interactive worldwide map of place name pronunciations.
+By Michael McNeil for [New Maps Plus](https://newmapsplus.as.uky.edu/) at the University of Kentucky.
+2019-03-15
 
 ## MAPPING PROJECT PROPOSAL
 
