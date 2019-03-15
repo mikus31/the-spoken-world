@@ -9,18 +9,16 @@ The inspiration to design and create a map that allows users to click on a place
 
 ![iceland homework](/images/ashers-homework.png "Asher's Geography Homework")
 
-And discouragingly I could not help him!
-
-This problem bothered me relentlessly for a few days, until I had the idea to make a map to help Asher and others learn how to pronounce world place names.
+And discouragingly I could not help him! This problem bothered me relentlessly for a few days, until I had the idea to make a map to help Asher and others learn how to pronounce world place names.
 
 Think about the importance of place names for a second. What we name our places matters deeply to all of us on a local level. It speaks to our culture, and it tells the rest of the world something about us. But how we pronounce our places is just as important too, and indicative of our geographical identity.
 
 For example, take the city of New Orleans. There are a number of pronunciations out in the world, including:
 
-..*new or-leens
-..*new or-lee-ins 
-..*naw-lins
-..*new or-lins
+..* new or-leens
+..* new or-lee-ins 
+..* naw-lins
+..* new or-lins
 
 However, only one of these pronunciations is acceptable on the local level: The latter pronunciation. A New Orleanian can tell if you are (a) likely from the city or (b) likely a tourist immediately by how you pronounce New Orleans.
 
