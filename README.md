@@ -7,6 +7,8 @@ An interactive worldwide map of place name pronunciations.
 
 The inspiration to design and create a map that allows users to click on a place in the world and hear its pronunciation came to me in the form a 9-year-old's homework assignment. My cousin Asher had a geography project due for school, and he chose to author a report on Iceland. I had traveled to Iceland a few years prior, so his mother asked me one night if I could help him with the pronunciation of Icelandic places.
 
+![iceland homework](/images/ashers-homework "Asher's Geography Homework")
+
 And sadly I could not help!
 
 This problem bothered me relentlessly for a few days, until the idea to make a map to help Asher and others learn how to pronounce world place names.
