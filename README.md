@@ -5,7 +5,7 @@ An interactive worldwide map of place name pronunciations.
 
 **Introduction**
 
-The inspiration to design and create a map that allows users to click on a place in the world and hear its pronunciation came to me in the form of a 9-year-old's homework assignment. My cousin Asher had a geography project due for school, and he chose to author a report about Iceland. I traveled to Iceland a few years ago, so his mother thought I could help him with the pronunciation of Icelandic places.
+The inspiration to design and create a map that allows users to click on a place in the world and hear its pronunciation came to me from a 9-year-old's homework assignment. My cousin Asher had a geography project due for school, and he chose to author a report about Iceland. I traveled to Iceland a few years ago, so naturally Asher thought I could help him with the pronunciation of Icelandic places.
 
 ![iceland homework](/images/ashers-homework.png "Asher's Geography Homework")
 
@@ -22,11 +22,11 @@ For example, take the city of New Orleans. There are a number of pronunciations 
 
 However, only one of these pronunciations is acceptable on the local level: The latter pronunciation. A New Orleanian can tell if you are (a) likely from the city or (b) likely a tourist immediately by how you pronounce New Orleans.
 
-Pronunciation is personal, and it is local. It also is a global phenomenon, in that this anecdotal example of New Orleans plays out all over the globe across all scales of geography. This mapping project is an effort to elevate local pronunciations to a global audience.
+Pronunciation is personal, and it is local. It also is a global phenomenon, in that this anecdotal example of New Orleans plays out all over the globe across all scales of geography. This mapping project is an effort to elevate local, authoritative pronunciations to the global level.
 
 **Methodology**
 
-Anticipated data sources to include the following:
+Anticipated data sources include the following:
 
 * Wikipedia ([click here](https://upload.wikimedia.org/wikipedia/commons/5/54/Is-Akureyri.oga) for an example of place name pronunciation data from Wikipedia)
 * [Natural Earth](http://www.naturalearthdata.com/)
@@ -44,7 +44,7 @@ Anticipated tools for data manipulation and analysis include the following:
 
 Front-end data for the web map will be produced as a GeoJSON-CSV stack.
 
-The web map will be accessible via a web browser on both desktop and mobile devices. The anticipated technology stack for the web map is HTML-CSS-JS-Leaflet, as well as any necessary JS libraries. For example, the web map will need a library for a universal search bar.
+The web map will be accessible via a web browser on both desktop and mobile devices. The anticipated technology stack for the web map is HTML-CSS-JS-Leaflet, as well as any necessary JS libraries. For example, the web map will need a library for its universal search functionality.
 
 ![uni search bar](/images/search-bar.png "Universal Search Bar Mockup")
 
@@ -67,7 +67,7 @@ The overall aesthetic will be a simple design with bright, contemporary colors a
 
 In college, my wife Sarah did a National Student Exchange program at the University of Hawaii-Hilo one semester. She learned about Hawaiian food and culture while on the "Big Island" and also a little about Hawaiian language. When I told her about this project, she mentioned that Hawaiians can discern what island a fellow Hawaiian is from by how they pronounce place names.
 
-Place names are personal to us, both in terms of what names are chosen for places and how we pronounce those names. Names and their pronunciations are local. And at the same time, though it seems contradictory on the surface, global as well.
+Place names are personal to all of us, both in terms of what names are chosen for places and how we pronounce those names. Names and their pronunciations are local. And at the same time, though it seems contradictory on the surface, global as well.
 
 ---
 *Mapping project proposal by Michael McNeil for [New Maps Plus](https://newmapsplus.as.uky.edu/) at the [University of Kentucky](http://www.uky.edu/UKHome/).*
