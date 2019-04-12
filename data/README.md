@@ -1,15 +1,23 @@
 # DATA README
 
-Current data sources:
+Used data sources:
 
 * [Natural Earth](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/)
 
-Anticipated data sources include the following:
+Used web applications:
+
+* [Projection Wizard](http://projectionwizard.org/)
+* [Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+---
+
+Potential data sources:
 
 * Wikipedia ([click here](https://upload.wikimedia.org/wikipedia/commons/5/54/Is-Akureyri.oga) for an example of place name pronunciation data from Wikipedia)
 * [Natural Earth](http://www.naturalearthdata.com/)
 * [NGA GEOnet Names Server](http://geonames.nga.mil/gns/html/index.html)
 * [Equal Earth Area Projection](https://observablehq.com/@d3/equal-earth)
+* [Maki](https://labs.mapbox.com/maki-icons/)
 
 Anticipated tools for data manipulation and analysis include the following:
 
