@@ -10,6 +10,10 @@ Used web applications/resources:
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [The Noun Project](https://thenounproject.com/term/sound/1226989/#)
 
+Used desktop applications/resources:
+
+* [QGIS](https://qgis.org/en/site/)
+
 ---
 
 Potential data sources:
