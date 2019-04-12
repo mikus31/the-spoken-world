@@ -6,8 +6,8 @@ Used data sources:
 
 Used web applications/resources:
 
-* [Projection Wizard](http://projectionwizard.org/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Projection Wizard](http://projectionwizard.org/)
 * [The Noun Project](https://thenounproject.com/term/sound/1226989/#)
 
 Used desktop applications/resources:
