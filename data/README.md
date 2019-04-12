@@ -4,10 +4,11 @@ Used data sources:
 
 * [Natural Earth](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/)
 
-Used web applications:
+Used web applications/resources:
 
 * [Projection Wizard](http://projectionwizard.org/)
 * [Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [The Noun Project](https://thenounproject.com/)
 
 ---
 
@@ -18,6 +19,7 @@ Potential data sources:
 * [NGA GEOnet Names Server](http://geonames.nga.mil/gns/html/index.html)
 * [Equal Earth Area Projection](https://observablehq.com/@d3/equal-earth)
 * [Maki](https://labs.mapbox.com/maki-icons/)
+* [The Noun Project](https://thenounproject.com/)
 
 Anticipated tools for data manipulation and analysis include the following:
 
