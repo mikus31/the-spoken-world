@@ -1,5 +1,9 @@
 # DATA README
 
+Current data sources:
+
+* [Natural Earth](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/)
+
 Anticipated data sources include the following:
 
 * Wikipedia ([click here](https://upload.wikimedia.org/wikipedia/commons/5/54/Is-Akureyri.oga) for an example of place name pronunciation data from Wikipedia)
