@@ -2,7 +2,7 @@
 
 Used data sources:
 
-* [Natural Earth](http://www.naturalearthdata.com/downloads/50m-cultural-vectors/)
+* [Natural Earth](http://www.naturalearthdata.com/)
 
 Used web applications/resources:
 
