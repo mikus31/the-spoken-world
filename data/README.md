@@ -7,7 +7,7 @@ Used data sources:
 Used web applications/resources:
 
 * [Projection Wizard](http://projectionwizard.org/)
-* [Markdown Cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [The Noun Project](https://thenounproject.com/term/sound/1226989/#)
 
 ---
