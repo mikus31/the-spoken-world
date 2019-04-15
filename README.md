@@ -28,7 +28,7 @@ Pronunciation is personal, and it is local. It also is a global phenomenon, in t
 
 Anticipated data sources include the following:
 
-* Wikipedia ([click here](https://upload.wikimedia.org/wikipedia/commons/5/54/Is-Akureyri.oga) for an example of place name pronunciation data from Wikipedia)
+* [Wikipedia](https://commons.wikimedia.org/wiki/Category:Pronunciation_of_names_of_cities)
 * [Natural Earth](http://www.naturalearthdata.com/)
 * [NGA GEOnet Names Server](http://geonames.nga.mil/gns/html/index.html)
 * [Equal Earth Area Projection](https://observablehq.com/@d3/equal-earth)
