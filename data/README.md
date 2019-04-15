@@ -3,6 +3,7 @@
 Used data sources:
 
 * [Natural Earth](http://www.naturalearthdata.com/)
+* [Wikipedia Commons](https://commons.wikimedia.org/wiki/Category:Pronunciation_of_names_of_cities)
 
 Used web applications/resources:
 
