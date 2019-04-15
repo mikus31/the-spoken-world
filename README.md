@@ -56,6 +56,8 @@ Users will be invited to interact with the map immediately on the splash page. T
 
 After zooming into the map to the country level, place names will appear. Users will be able to click on these place names. A popup will appear with information about the place, including a pronunciation file that can be played.
 
+![iceland with sound icons](/images/ice-with-sound.png "Iceland")
+
 Aesthetically, the plan is to use web applications to drive the design of the map. Anticipated web apps to include the following:
 
 * [ColorSupplyyy](https://colorsupplyyy.com/app)
