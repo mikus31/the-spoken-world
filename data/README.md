@@ -12,6 +12,7 @@ Used libraries:
 Used web applications/resources:
 
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Google Fonts](https://fonts.google.com/selection?selection.family=Lato|Oswald)
 * [Projection Wizard](http://projectionwizard.org/)
 * [The Noun Project](https://thenounproject.com/term/sound/1226989/#)
 
