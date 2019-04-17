@@ -18,7 +18,7 @@
         }
         
         #map {
-            background-color: #84C3DF;
+            background-color: #B2E5E6;
         }
         
         h1 {
@@ -46,9 +46,9 @@
         var mymap = L.map('map').setView([65, -19], 7);
         /*L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWlrdXMzMSIsImEiOiJjanVrNGgyaTIxcDNpM3lwaXB3dnowa2VpIn0.uNKvtTY9Is0M7xKSl_ukjQ', { attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>' , maxZoom: 18 , id: 'mapbox.streets' }).addTo(mymap);*/
         var audioIcon = L.icon({
-            iconUrl: 'images/audio-color.png'
-            , iconSize: [50, 50], // size of the icon
-            iconAnchor: [25, 25], // point of the icon which will correspond to marker's location
+            iconUrl: 'images/audio-test-two.png'
+            , iconSize: [60, 60], // size of the icon
+            iconAnchor: [30, 30], // point of the icon which will correspond to marker's location
             popupAnchor: [25, 25] // point from which the popup should open relative to the iconAnchor
         });
         $.getJSON("data/countries.geojson", function (data) {
@@ -78,7 +78,7 @@
                         color: '#ffffff'
                         , weight: 3
                         , fillOpacity: 1
-                        , fillColor: '#C8E7C1'
+                        , fillColor: '#EBE084'
                         , interactive: false
                     };
                 }
