@@ -36,6 +36,8 @@ Anticipated data sources include the following:
 * [inogolo](https://inogolo.com/)
 * [Forvo](https://forvo.com/)
 * [Pronounce](https://pronounce.voanews.com/index.php)
+* [howjsay](https://howjsay.com/)
+* [The Name Engine](https://www.thenameengine.com/category/On%20The%20Map/226)
 
 Anticipated tools for data manipulation and analysis include the following:
 
