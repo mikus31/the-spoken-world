@@ -1,22 +1,25 @@
 # DATA README
 
-Used data sources:
+Data Sources:
 
 * [Natural Earth](http://www.naturalearthdata.com/)
 * [Wikipedia Commons](https://commons.wikimedia.org/wiki/Category:Pronunciation_of_names_of_cities)
 
-Used libraries:
+Libraries:
 
-* [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [Leaflet](https://leafletjs.com/)
+* [Leaflet Ajax](https://github.com/calvinmetcalf/leaflet-ajax)
+* [jQuery](https://jquery.com/)
 
-Used web applications/resources:
+Development and Design:
 
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Google Fonts](https://fonts.google.com/selection?selection.family=Lato|Oswald)
 * [Projection Wizard](http://projectionwizard.org/)
 * [The Noun Project](https://thenounproject.com/term/sound/1226989/#)
+* [ColorSupplyyy](https://colorsupplyyy.com/app)
 
-Used desktop applications/resources:
+Geoprocessing Tools:
 
 * [QGIS](https://qgis.org/en/site/)
 
@@ -28,10 +31,12 @@ Potential data sources:
 * [Natural Earth](http://www.naturalearthdata.com/)
 * [NGA GEOnet Names Server](http://geonames.nga.mil/gns/html/index.html)
 * [Equal Earth Area Projection](https://observablehq.com/@d3/equal-earth)
-* [Maki](https://labs.mapbox.com/maki-icons/)
-* [The Noun Project](https://thenounproject.com/)
 
-Anticipated tools for data manipulation and analysis include the following:
+Potential libraries:
+
+* [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+
+Potential geoprocessing tools:
 
 * QGIS
 * Microsoft Excel
@@ -40,8 +45,10 @@ Anticipated tools for data manipulation and analysis include the following:
 * Pandas
 * Geopandas
 
-Aesthetically, the plan is to use web applications to drive the design of the map. Anticipated web apps to include the following:
+Potential design applications:
 
 * [ColorSupplyyy](https://colorsupplyyy.com/app)
 * [Google Fonts](https://fonts.google.com/)
+* [Maki](https://labs.mapbox.com/maki-icons/)
+* [The Noun Project](https://thenounproject.com/)
 
