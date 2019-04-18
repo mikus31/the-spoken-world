@@ -23,4 +23,8 @@ Geoprocessing Tools:
 
 * [QGIS](https://qgis.org/en/site/)
 
+Reading Material:
+
+* [Quartz: Google wants to teach you how to say place names like a local](https://qz.com/338341/google-wants-to-teach-you-how-to-say-place-names-like-a-local/)
+
 

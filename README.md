@@ -15,10 +15,11 @@ Think about the importance of place names for a second. What we name our places 
 
 For example, take the city of New Orleans. There are a number of pronunciations of New Orleans out there in the world, including:
 
-* new or-leens
-* new or-lee-ins 
-* naw-lins
-* new or-lins
+* new or-leenz
+* new or-lee-inz
+* [new ahl-e-yuns](https://www.businessinsider.com/how-locals-pronounce-city-names-2014-9-2) 
+* naw-linz
+* new or-linz
 
 However, only one of these pronunciations is acceptable on the local level: The latter pronunciation. A New Orleanian can tell if you are (a) likely from the city or (b) likely a tourist immediately by how you pronounce New Orleans.
 
