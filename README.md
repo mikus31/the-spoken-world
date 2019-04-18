@@ -33,6 +33,9 @@ Anticipated data sources include the following:
 * [Natural Earth](http://www.naturalearthdata.com/)
 * [NGA GEOnet Names Server](http://geonames.nga.mil/gns/html/index.html)
 * [Equal Earth Area Projection](https://observablehq.com/@d3/equal-earth)
+* [inogolo](https://inogolo.com/)
+* [Forvo](https://forvo.com/)
+* [Pronounce](https://pronounce.voanews.com/index.php)
 
 Anticipated tools for data manipulation and analysis include the following:
 
