@@ -4,6 +4,7 @@ Data Sources:
 
 * [Natural Earth](http://www.naturalearthdata.com/)
 * [Wikipedia Commons](https://commons.wikimedia.org/wiki/Category:Pronunciation_of_names_of_cities)
+* [Forvo](https://forvo.com/tag/cities/)
 
 Libraries:
 
