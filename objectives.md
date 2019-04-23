@@ -3,10 +3,10 @@ An interactive worldwide map of place name pronunciations.
 
 ## Objectives
 
-* Create starter index.html
-* Load basemap
-* Load data
-* Basemap > Country polygons?
+* ~~Create starter index.html~~
+* ~~Load data~~
+* ~~Load test basemap~~
+* Basemap > Country polygons? See basemap created in Mapbox
 * Acquire Forvo API for pronunciation data / create database of Wikipedia pronunciation links
 * Wrangle data
 * Create splash page with search bar (see wireframe)
