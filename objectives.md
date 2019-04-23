@@ -12,7 +12,7 @@ An interactive worldwide map of place name pronunciations.
 * Wrangle data
 * Create splash page with search bar (see wireframe)
 * Hide point features to reduce page load
-* Allow users to click on point features to access attributes, pronunciations, etc.
+* Allow users to click on point features to popup attributes, pronunciations, etc. / or click on point feature plays pronunciation
 * Only display point features that have pronunciations? To reduce data load on website
 * If using country polygons > basemap, only show points within user selected country
 * If using country polygons > basemap, custom style the selected country / adjacent countries
