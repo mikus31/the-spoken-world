@@ -17,6 +17,8 @@ An interactive worldwide map of place name pronunciations.
 * If using country polygons > basemap, custom style the selected country / adjacent countries
 * If using country polygons > basemap, add hover-over and click events to country polygons
 * Add Light Mode / Dark Mode switch?
+* Easter Egg idea: Record Louis Fitzmorris for the Abita Springs pronunciation
+* Easter Egg idea: Hide map author info in the Slidell pronunciation 
 * Map Title
 * Map Metadata
 * Map Styling
