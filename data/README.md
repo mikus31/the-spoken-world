@@ -18,7 +18,7 @@ Development and Design:
 * [Google Fonts](https://fonts.google.com/selection?selection.family=Lato|Oswald)
 * [Projection Wizard](http://projectionwizard.org/)
 * [The Noun Project](https://thenounproject.com/term/sound/1226989/#)
-* [ColorSupplyyy](https://colorsupplyyy.com/app)
+* [ColorSupplyyy](https://colorsupplyyy.com/app) via [Steven Scott](http://stevescott.com.au/)
 
 Geoprocessing Tools:
 
