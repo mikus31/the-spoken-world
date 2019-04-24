@@ -7,7 +7,7 @@ An interactive worldwide map of place name pronunciations.
 * ~~Load data~~
 * ~~Load test basemap~~
 * ~~Load custom marker~~
-* Basemap > Country polygons? See basemap created in Mapbox
+* ~~Basemap > Country polygons? See basemap created in Mapbox~~
 * Acquire Forvo API for pronunciation data / create database of Wikipedia pronunciation links
 * Wrangle data
 * Create splash page with search bar (see wireframe)

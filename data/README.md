@@ -11,6 +11,7 @@ Libraries:
 * [Leaflet](https://leafletjs.com/)
 * [Leaflet Ajax](https://github.com/calvinmetcalf/leaflet-ajax)
 * [jQuery](https://jquery.com/)
+* [Mapbox](https://www.mapbox.com/)
 
 Development and Design:
 
