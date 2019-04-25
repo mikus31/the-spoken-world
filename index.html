@@ -79,6 +79,11 @@
                     });
                     layer.openTooltip();
                 });
+                layer.on('mouseover', function () {
+                    layer.setStyle({
+                        color: '#DAFF22'
+                    });
+                });
                 layer.on('mouseout', function () {
                     layer.unbindTooltip();
                     layer.closeTooltip();
