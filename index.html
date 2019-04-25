@@ -17,10 +17,6 @@
             margin: 0;
         }
         
-        #map {
-            background-color: #B2E5E6;
-        }
-        
         h1 {
             font-family: 'Oswald', sans-serif;
             font-size: 4.5em;
@@ -69,6 +65,10 @@
                     });
                 }
             }).addTo(map);
+            // set the zoom/center to the extent of the geojson
+            // map.fitBounds(places.getBounds());
+            // and then zoom in a tad
+            // map.setZoom(map.getZoom() + .5);
             // console.log(data.features[0].properties.longitude);
             places.eachLayer(function (layer) {
                 layer.on('click', function () {
@@ -82,11 +82,13 @@
                 // create mouseover event
                 // not working: console says layer.setStyle is not a function
                 // is this because i am using a custom icon for markers?
-                /*layer.on('mouseover', function () {
+                layer.on('mouseover', function () {
                     layer.setStyle({
                         color: '#DAFF22'
+                        , weight: 4
                     });
-                });*/
+                    layer.bringToFront(this);
+                });
                 layer.on('mouseout', function () {
                     layer.unbindTooltip();
                     layer.closeTooltip();
