@@ -79,11 +79,14 @@
                     });
                     layer.openTooltip();
                 });
-                layer.on('mouseover', function () {
+                // create mouseover event
+                // not working: console says layer.setStyle is not a function
+                // is this because i am using a custom icon for markers?
+                /*layer.on('mouseover', function () {
                     layer.setStyle({
                         color: '#DAFF22'
                     });
-                });
+                });*/
                 layer.on('mouseout', function () {
                     layer.unbindTooltip();
                     layer.closeTooltip();
