@@ -98,6 +98,9 @@
                 });
             });
             // add marker cluster code here
+            var markers = L.markerClusterGroup();
+            markers.addLayer(L.marker(places));
+            map.addLayer(markers);
         }
         /*function drawCountries(data) {
             console.log(data.features[1].properties);
