@@ -45,12 +45,12 @@
     <script>
         // create map
         L.mapbox.accessToken = 'pk.eyJ1IjoibWlrdXMzMSIsImEiOiJjanVrNGgyaTIxcDNpM3lwaXB3dnowa2VpIn0.uNKvtTY9Is0M7xKSl_ukjQ';
-        var map = L.mapbox.map('map').addLayer(L.mapbox.styleLayer('mapbox://styles/mikus31/cjajul8jxb6212rq7ly2wgenz'));
+        var map = L.mapbox.map('map').setView([65, -19], 7).addLayer(L.mapbox.styleLayer('mapbox://styles/mikus31/cjajul8jxb6212rq7ly2wgenz'));
         // allow map to access user's location
-        map.locate({
+        /*map.locate({
             setView: true
             , maxZoom: 16
-        });
+        });*/
         // create custom marker icon
         var audioIcon = L.icon({
             iconUrl: 'images/audio-test-two.png'
