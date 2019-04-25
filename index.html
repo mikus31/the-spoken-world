@@ -75,7 +75,7 @@
             places.eachLayer(function (layer) {
                 layer.on('click', function () {
                     var props = layer.feature.properties;
-                    var tooltipInfo = props["nameascii"];
+                    var tooltipInfo = props.nameascii;
                     layer.bindTooltip(tooltipInfo, {
                         sticky: false
                     });
@@ -90,7 +90,10 @@
                     // console.log(props);
                     // on mouseover, get the coords of moused-over feature
                     var coords = [[props.latitude], [props.longitude]];
-                    console.log(coords);
+                    // console.log(coords);
+                    var selectedPlaces = [];
+                    selectedPlaces.push(coords);
+                    console.log(selectedPlaces);
                     // use those coords to create a marker feature
                     // add the new marker feature to the selectedPlaces layer group
                     // on mouseout below, add .clearLayers() method to clear out selectedPlaces
