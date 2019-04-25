@@ -61,14 +61,29 @@
         });
 
         function drawPlaces(data) {
+            // var popup = (data.features[0].properties.nameascii);
             var places = L.geoJson(data, {
                 pointToLayer: function (feature, latlng) {
                     return L.marker(latlng, {
                         icon: audioIcon
                     });
                 }
-            }).bindPopup("test").addTo(map);
-            console.log(data.features[0].properties.longitude);
+            }).addTo(map);
+            // console.log(data.features[0].properties.longitude);
+            places.eachLayer(function (layer) {
+                layer.on('click', function () {
+                    var props = layer.feature.properties;
+                    var tooltipInfo = props["nameascii"];
+                    layer.bindTooltip(tooltipInfo, {
+                        sticky: false
+                    });
+                    layer.openTooltip();
+                });
+                layer.on('mouseout', function () {
+                    layer.unbindTooltip();
+                    layer.closeTooltip();
+                });
+            });
         }
         /*function drawCountries(data) {
             console.log(data.features[1].properties);
