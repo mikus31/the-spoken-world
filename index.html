@@ -59,6 +59,9 @@
         $.getJSON("data/places-newtable.geojson", function (data) {
             drawPlaces(data);
         });
+        
+        // An empty layerGroup to store your clicked feature.
+        var selectedPlace = L.layerGroup([],).addTo(map)
 
         function drawPlaces(data) {
             // var popup = (data.features[0].properties.nameascii);
@@ -83,18 +86,24 @@
                     });
                     layer.openTooltip();
                 });
-                // create mouseover event
-                // not working: console says layer.setStyle is not a function
-                // is this because i am using a custom icon for markers?
-                /*layer.on('mouseover', function () {
-                    layer.setStyle({
-                        color: '#DAFF22'
-                        , weight: 4
-                    });
-                });*/
+                
+                // on mouseover, get the coordinates of the selected feature and use them to create a marker that will be added to selectedPlace LayerGroup.
+                layer.on('mouseover', function (e) {
+                    var selectedFeatureCoordinates = e.target.getLatLng();                   
+                    selectedPlaceMarker = L.marker([selectedFeatureCoordinates.lat, selectedFeatureCoordinates.lng], {
+                        icon: L.icon({
+                            iconUrl: 'images/audio-color.png', // Since this is  PNG, you'll need to make a version of your icon that is the color you want.
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 15],
+                            popupAnchor: [0, 0]
+                        })
+                    })
+                    selectedPlace.addLayer(selectedPlaceMarker) // add the marker to the selectedPlace LayerGroup
+                });
                 layer.on('mouseout', function () {
                     layer.unbindTooltip();
                     layer.closeTooltip();
+                    selectedPlace.clearLayers() // On mouseout, clear the selectedPlace LayerGroup
                 });
             });
             // add marker cluster code here
