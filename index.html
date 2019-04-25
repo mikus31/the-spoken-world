@@ -98,9 +98,11 @@
                 });
             });
             // add marker cluster code here
-            var markers = L.markerClusterGroup();
+            // similar error as mouseover event above
+            // console says that L.markerClusterGroup is not a function
+            /*var markers = L.markerClusterGroup();
             markers.addLayer(L.marker(places));
-            map.addLayer(markers);
+            map.addLayer(markers);*/
         }
         /*function drawCountries(data) {
             console.log(data.features[1].properties);
