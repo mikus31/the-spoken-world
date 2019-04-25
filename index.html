@@ -53,8 +53,6 @@
             iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
             popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
         });
-        // load countries geojson and call function to add data to map
-        /*$.getJSON("data/countries.geojson", function (data) { drawCountries(data); });*/
         // load places geojson and call function to add data to map
         $.getJSON("data/places-newtable.geojson", function (data) {
             drawPlaces(data);
@@ -104,20 +102,6 @@
             markers.addLayer(L.marker(places));
             map.addLayer(markers);*/
         }
-        /*function drawCountries(data) {
-            console.log(data.features[1].properties);
-            var countries = L.geoJson(data, {
-                style: function (feature) {
-                    return {
-                        color: '#ffffff'
-                        , weight: 3
-                        , fillOpacity: 1
-                        , fillColor: '#EBE084'
-                        , interactive: false
-                    };
-                }
-            }).addTo(map);
-        }*/
     </script>
 </body>
 
