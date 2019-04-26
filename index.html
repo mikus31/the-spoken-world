@@ -53,15 +53,17 @@
         });*/
         // create custom marker icon
         var audioIcon = L.icon({
-            iconUrl: 'images/audio-test-two.png'
-            , iconSize: [70, 70], // size of the icon
-            iconAnchor: [35, 35], // point of the icon which will correspond to marker's location
+            iconUrl: 'images/audio-black.png'
+            , iconSize: [30, 30], // size of the icon
+            iconAnchor: [15, 15], // point of the icon which will correspond to marker's location
             popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
         });
         // load places geojson and call function to add data to map
         $.getJSON("data/places-newtable.geojson", function (data) {
             drawPlaces(data);
         });
+        // An empty layerGroup to store your clicked feature.
+        var selectedPlace = L.layerGroup([], ).addTo(map)
 
         function drawPlaces(data) {
             // var popup = (data.features[0].properties.nameascii);
@@ -87,25 +89,23 @@
                     layer.openTooltip();
                 });
                 // create mouseover event
-                // not working: console says layer.setStyle is not a function
-                // is this because i am using a custom icon for markers?
-                // workaround idea from ryan cooper via new maps plus slack ...
-                /*layer.on('mouseover', function () {
-                    var props = layer.feature.properties;
-                    // console.log(props);
-                    // on mouseover, get the coords of moused-over feature
-                    var coords = [[props.latitude], [props.longitude]];
-                    // console.log(coords);
-                    var selectedPlaces = [];
-                    selectedPlaces.push(coords);
-                    console.log(selectedPlaces);
-                    // use those coords to create a marker feature
-                    // add the new marker feature to the selectedPlaces layer group
-                    // on mouseout below, add .clearLayers() method to clear out selectedPlaces
-                });*/
+                // on mouseover, get the coordinates of the selected feature and use them to create a marker that will be added to selectedPlace LayerGroup.
+                layer.on('mouseover', function (e) {
+                    var selectedFeatureCoordinates = e.target.getLatLng();
+                    selectedPlaceMarker = L.marker([selectedFeatureCoordinates.lat, selectedFeatureCoordinates.lng], {
+                        icon: L.icon({
+                            iconUrl: 'images/audio-color.png', // Since this is  PNG, you'll need to make a version of your icon that is the color you want.
+                            iconSize: [30, 30]
+                            , iconAnchor: [15, 15]
+                            , popupAnchor: [0, 0]
+                        })
+                    })
+                    selectedPlace.addLayer(selectedPlaceMarker) // add the marker to the selectedPlace LayerGroup
+                });
                 layer.on('mouseout', function () {
                     layer.unbindTooltip();
                     layer.closeTooltip();
+                    selectedPlace.clearLayers() // On mouseout, clear the selectedPlace LayerGroup
                 });
             });
             // add marker cluster code here
