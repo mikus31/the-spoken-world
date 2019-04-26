@@ -12,6 +12,7 @@ Libraries:
 * [Leaflet Ajax](https://github.com/calvinmetcalf/leaflet-ajax)
 * [jQuery](https://jquery.com/)
 * [Mapbox](https://www.mapbox.com/)
+* [Leaflet Marker Cluster](https://github.com/Leaflet/Leaflet.markercluster)
 
 Development and Design:
 
