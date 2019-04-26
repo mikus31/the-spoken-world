@@ -90,7 +90,7 @@
                 // not working: console says layer.setStyle is not a function
                 // is this because i am using a custom icon for markers?
                 // workaround idea from ryan cooper via new maps plus slack ...
-                layer.on('mouseover', function () {
+                /*layer.on('mouseover', function () {
                     var props = layer.feature.properties;
                     // console.log(props);
                     // on mouseover, get the coords of moused-over feature
@@ -102,7 +102,7 @@
                     // use those coords to create a marker feature
                     // add the new marker feature to the selectedPlaces layer group
                     // on mouseout below, add .clearLayers() method to clear out selectedPlaces
-                });
+                });*/
                 layer.on('mouseout', function () {
                     layer.unbindTooltip();
                     layer.closeTooltip();
