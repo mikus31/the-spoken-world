@@ -8,10 +8,9 @@ An interactive worldwide map of place name pronunciations.
 * ~~Load test basemap~~
 * ~~Load custom marker~~
 * ~~Basemap > Country polygons? See basemap created in Mapbox~~
-* Acquire Forvo API for pronunciation data / create database of Wikipedia pronunciation links
+* ~~Acquire Forvo API for pronunciation data~~
 * Wrangle data
 * In lieu of custom splash page with search bar (see wireframe), use cluster points!
-* Hide point features to reduce page load
 * Allow users to click on point features to popup attributes, pronunciations, etc. / or click on point feature plays pronunciation
 * Only display point features that have pronunciations? To reduce data load on website
 * ~~If using country polygons > basemap, only show points within user selected country~~
