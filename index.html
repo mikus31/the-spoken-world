@@ -47,7 +47,7 @@
         L.mapbox.accessToken = 'pk.eyJ1IjoibWlrdXMzMSIsImEiOiJjanVrNGgyaTIxcDNpM3lwaXB3dnowa2VpIn0.uNKvtTY9Is0M7xKSl_ukjQ';
         var map = L.mapbox.map('map').addLayer(L.mapbox.styleLayer('mapbox://styles/mikus31/cjajul8jxb6212rq7ly2wgenz'));
         // .setView([65, -19], 7)
-        // allow map to access user's location
+        // allow map to access user's location?
         /*map.locate({
             setView: true
             , maxZoom: 16
@@ -58,34 +58,27 @@
         $.getJSON("data/places-newtable.geojson", function (data) {
             drawPlaces(data);
         });
-        // An empty layerGroup to store your clicked feature.
-        // var selectedPlace = L.layerGroup([], ).addTo(map)
+
         function drawPlaces(data) {
-            // var popup = (data.features[0].properties.nameascii);
             var places = L.geoJson(data);
             // set the zoom/center to the extent of the geojson
             map.fitBounds(places.getBounds());
             // and then zoom in a tad
             map.setZoom(map.getZoom() + 1);
-            // console.log(data.features[0].properties.longitude);
-            // add marker cluster code here
-            // not working: similar error as mouseover event above
-            // console says that L.markerClusterGroup is not a function
             // create new markerClusterGroup
             var markers = L.markerClusterGroup();
             // loop through all the features
             data.features.forEach(function (feature) {
                 // create a new Leaflet marker for each
-                // console.log(feature.geometry);
                 var coords = feature.geometry.coordinates
                     , marker = L.marker([coords[1], coords[0]]);
-                // create a tooltip for the markers
+                // create a tooltip for the markers ...
                 var props = feature.properties;
                 // console.log(props.nameascii);
                 var placesPopup = props.nameascii;
-                // bind a tooltip to the marker
+                // ... and bind it to the markers
                 marker.bindTooltip(placesPopup);
-                // add the marker to the markerClusterGroup
+                // add the individual markers to the markerClusterGroup
                 markers.addLayer(marker);
             });
             // add the markerClusterGroup to the map
