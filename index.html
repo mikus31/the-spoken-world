@@ -68,24 +68,6 @@
             // and then zoom in a tad
             map.setZoom(map.getZoom() + 1);
             // console.log(data.features[0].properties.longitude);
-            // places.eachLayer(function (layer) {
-            /*layer.on('click', function () {
-                var props = layer.feature.properties;
-                var tooltipInfo = props.nameascii;
-                layer.bindTooltip(tooltipInfo, {
-                    sticky: false
-                });
-                layer.openTooltip();
-            });*/
-            // create mouseover event
-            // on mouseover, get the coordinates of the selected feature and use them to create a marker that will be added to selectedPlace LayerGroup.
-            /*layer.on('mouseover', function (e) { var selectedFeatureCoordinates = e.target.getLatLng(); selectedPlaceMarker = L.marker([selectedFeatureCoordinates.lat, selectedFeatureCoordinates.lng], { icon: L.icon({ iconUrl: 'images/audio-color.png', // Since this is PNG, you'll need to make a version of your icon that is the color you want. iconSize: [30, 30] , iconAnchor: [15, 15] , popupAnchor: [0, 0] }) }) selectedPlace.addLayer(selectedPlaceMarker) // add the marker to the selectedPlace LayerGroup });*/
-            /*layer.on('mouseout', function () {
-                layer.unbindTooltip();
-                layer.closeTooltip();
-                // selectedPlace.clearLayers() // On mouseout, clear the selectedPlace LayerGroup
-            });*/
-            // });
             // add marker cluster code here
             // not working: similar error as mouseover event above
             // console says that L.markerClusterGroup is not a function
