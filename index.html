@@ -53,7 +53,13 @@
             , maxZoom: 16
         });*/
         // create custom marker icon
-        /*var audioIcon = L.icon({ iconUrl: 'images/audio-black.png' , iconSize: [30, 30], // size of the icon iconAnchor: [15, 15], // point of the icon which will correspond to marker's location popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor });*/
+        var audioIcon = L.icon({
+            iconUrl: 'images/audio-black.png'
+            , iconSize: [30, 30], // size of the icon 
+            iconAnchor: [15, 15], // point of the icon which will correspond to marker's location 
+            popupAnchor: [0, 0]
+                // point from which the popup should open relative to the iconAnchor 
+        });
         // load places geojson and call function to add data to map
         $.getJSON("data/places-newtable.geojson", function (data) {
             drawPlaces(data);
@@ -71,7 +77,9 @@
             data.features.forEach(function (feature) {
                 // create a new Leaflet marker for each
                 var coords = feature.geometry.coordinates
-                    , marker = L.marker([coords[1], coords[0]]);
+                    , marker = L.marker([coords[1], coords[0]], {
+                        icon: audioIcon
+                    });
                 // create a tooltip for the markers ...
                 var props = feature.properties;
                 // console.log(props.nameascii);
