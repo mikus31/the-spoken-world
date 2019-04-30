@@ -20,6 +20,7 @@ An interactive worldwide map of place name pronunciations.
 * Add Light Mode / Dark Mode switch?
 * Easter Egg idea: Record Louis Fitzmorris for the Abita Springs pronunciation
 * Easter Egg idea: Hide map author info in the Slidell pronunciation 
+* Add collapsible sidebar for map title, metadata, etc.
 * Add map title
 * Add map metadata
 * Finish map styling
