@@ -4,8 +4,7 @@ Data Sources:
 
 * [Natural Earth](http://www.naturalearthdata.com/)
 * [Mapbox](https://api.mapbox.com/styles/v1/mikus31/cjajul8jxb6212rq7ly2wgenz.html?fresh=true&title=true&access_token=pk.eyJ1IjoibWlrdXMzMSIsImEiOiJjanVrNGgyaTIxcDNpM3lwaXB3dnowa2VpIn0.uNKvtTY9Is0M7xKSl_ukjQ#11.8/64.143501/-21.896317/0)
-* [Wikipedia Commons](https://commons.wikimedia.org/wiki/Category:Pronunciation_of_names_of_cities)
-* [Forvo](https://forvo.com/tag/cities/)
+* [Wikipedia Commons](https://commons.wikimedia.org/wiki/Category:Pronunciation_of_names_of_cities) or [Forvo](https://forvo.com/tag/cities/)
 
 Libraries:
 
