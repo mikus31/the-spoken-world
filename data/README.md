@@ -19,13 +19,16 @@ Development and Design:
 
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Google Fonts](https://fonts.google.com/selection?selection.family=Lato|Oswald)
-* [Projection Wizard](http://projectionwizard.org/)
 * [The Noun Project](https://thenounproject.com/term/sound/1226989/#)
 * [ColorSupplyyy](https://colorsupplyyy.com/app) via [Steven Scott](http://stevescott.com.au/)
 
 Geoprocessing Tools:
 
 * [QGIS](https://qgis.org/en/site/)
+* [Python](https://www.python.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Geopandas](http://geopandas.org/)
+* [Jupyter Notebook](https://jupyter.org/)
 
 Reading Material:
 
