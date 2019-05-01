@@ -9,7 +9,7 @@ Data Sources:
 
 Libraries:
 
-* [Leaflet](https://leafletjs.com/)
+* [Leaflet JS](https://leafletjs.com/)
 * [Leaflet Ajax](https://github.com/calvinmetcalf/leaflet-ajax)
 * [jQuery](https://jquery.com/)
 * [Mapbox JS](https://www.mapbox.com/)
