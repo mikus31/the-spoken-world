@@ -16,13 +16,15 @@ An interactive worldwide map of place name pronunciations.
 * ~~If using country polygons > basemap, add hover-over and click events to country polygons~~
 * Only display point features that have pronunciations? To reduce data load on website
 * Integrate Forvo API
-* Wrangle data (need to add field to data table for Forvo API?)
+* Wrangle data
 * Add Light Mode / Dark Mode switch?
 * Easter Egg idea: Record Louis Fitzmorris for the Abita Springs pronunciation
 * Easter Egg idea: Hide map author info in the Slidell pronunciation
 * Easter Egg idea: Record Asher Eng (cousin responsible for map inspiration) for the Los Angeles pronunciation  
 * Add collapsible sidebar for map title, metadata, etc.
-* Add search bar or button on web map 
+* Add permanent sidebar for zoom controls, audio controls, search, etc. 
+* Add spelling / phonetic spelling near the audio controls?
+* Add user history to the sidebar?
 * Add map title
 * Add map metadata
 * Finish map styling
