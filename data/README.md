@@ -13,6 +13,12 @@ Libraries:
 * [jQuery](https://jquery.com/)
 * [Mapbox JS](https://www.mapbox.com/)
 * [Leaflet Marker Cluster](https://github.com/Leaflet/Leaflet.markercluster)
+* d3
+* d3 fetch
+* d3 dsv
+
+Libraries (not yet used):
+
 * [Leaflet Sidebar](https://github.com/turbo87/leaflet-sidebar)
 * [sidebar-v2](https://github.com/Turbo87/sidebar-v2)
 * [Leaflet Search](https://github.com/stefanocudini/leaflet-search)
