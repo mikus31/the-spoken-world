@@ -37,11 +37,18 @@
 </head>
 
 <body>
+    <button id='pronun'>click here to listen</button>
+    <audio controls>
+        <source id='mp3' type="audio/mpeg">
+        <source id='ogg' type="audio/ogg"> </audio>
     <div id="map"> </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
     <script src='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js'></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+    <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <script>
         // create map
         L.mapbox.accessToken = 'pk.eyJ1IjoibWlrdXMzMSIsImEiOiJjanVrNGgyaTIxcDNpM3lwaXB3dnowa2VpIn0.uNKvtTY9Is0M7xKSl_ukjQ';
@@ -64,6 +71,11 @@
         $.getJSON("data/places-newtable.geojson", function (data) {
             drawPlaces(data);
         });
+        d3.select('#pronun').on('click', function () {
+            placeName = 'Reykjavik'
+            url = 'https://apifree.forvo.com/key/f08a91897cb826f93096d8ea72e87c4e/format/json/action/word-pronunciations/word/' + placeName + '/language/en'
+            getPath(url);
+        })
 
         function drawPlaces(data) {
             var places = L.geoJson(data);
@@ -91,6 +103,31 @@
             });
             // add the markerClusterGroup to the map
             map.addLayer(markers);
+        }
+
+        function getPath(path) {
+            $.ajax({
+                url: path
+                , type: 'GET'
+                , dataType: 'jsonp'
+                , cors: true
+                , contentType: 'application/json'
+                , secure: true
+                , headers: {
+                    'Access-Control-Allow-Origin': '*'
+                , }
+                , beforeSend: function (xhr) {
+                    xhr.setRequestHeader("Authorization", "Basic " + btoa(""));
+                }
+                , success: function (data) {
+                    let mp3Path = data.items[0].pathmp3;
+                    let oggPath = data.items[0].pathogg;
+                    d3.select('audio').remove();
+                    d3.select('body').append('audio').attr('controls', '').append('source').attr('type', 'audio/mpeg').attr('src', mp3Path)
+                    d3.select('audio').append('source').attr('type', 'audio/ogg').attr('src', oggPath)
+                }
+            })
+            console.log(url);
         }
     </script>
 </body>
