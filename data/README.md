@@ -16,11 +16,10 @@ Libraries:
 * [d3](https://d3js.org/)
 * [d3-fetch](https://github.com/d3/d3-fetch)
 * [d3-dsv](https://github.com/d3/d3-dsv)
+* [Leaflet sidebar-v2](https://github.com/Turbo87/sidebar-v2)
 
 Libraries (not yet used):
 
-* [Leaflet Sidebar](https://github.com/turbo87/leaflet-sidebar)
-* [sidebar-v2](https://github.com/Turbo87/sidebar-v2)
 * [Leaflet Search](https://github.com/stefanocudini/leaflet-search)
 
 Development and Design:
@@ -29,6 +28,7 @@ Development and Design:
 * [Google Fonts](https://fonts.google.com/selection?selection.family=Lato|Oswald)
 * [The Noun Project](https://thenounproject.com/term/sound/1226989/#)
 * [ColorSupplyyy](https://colorsupplyyy.com/app) via [Steven Scott](http://stevescott.com.au/)
+* [Google Icons](https://material.io/)
 
 Geoprocessing Tools:
 
