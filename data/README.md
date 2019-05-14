@@ -13,9 +13,9 @@ Libraries:
 * [jQuery](https://jquery.com/)
 * [Mapbox JS](https://www.mapbox.com/)
 * [Leaflet Marker Cluster](https://github.com/Leaflet/Leaflet.markercluster)
-* d3
-* d3 fetch
-* d3 dsv
+* [d3](https://d3js.org/)
+* [d3-fetch](https://github.com/d3/d3-fetch)
+* [d3-dsv](https://github.com/d3/d3-dsv)
 
 Libraries (not yet used):
 
