@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
     <!--font-family: 'Oswald', sans-serif;
     font-family: 'Lato', sans-serif;-->
+    <!-- Sidebar V-2 -->
+    <link rel="stylesheet" href="libs/sidebar-v2/leaflet-sidebar.css" />
     <style>
         body {
             padding: 0;
@@ -37,8 +39,42 @@
 </head>
 
 <body>
-    <button id='pronun'><img src='/images/audio-test-two.png' alt="Click to listen" style="width:50px;height:50px;"></button>
-    <div id="map"> </div>
+    <!--    <button id='pronun'><img src='/images/audio-test-two.png' alt="Click to listen" style="width:50px;height:50px;"></button>-->
+    <div id="sidebar" class="sidebar collapsed">
+        <!-- Nav tabs -->
+        <div class="sidebar-tabs">
+            <ul role="tablist">
+                <li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
+                <li><a href="#profile" role="tab"><i class="fa fa-user"></i></a></li>
+                <li class="disabled"><a href="#messages" role="tab"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="https://github.com/Turbo87/sidebar-v2" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+            <ul role="tablist">
+                <li><a href="#settings" role="tab"><i class="fa fa-gear"></i></a></li>
+            </ul>
+        </div>
+        <!-- Tab panes -->
+        <div class="sidebar-content">
+            <div class="sidebar-pane" id="home">
+                <h1 class="sidebar-header">
+                    sidebar-v2
+                    <span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
+                </h1>
+                <p>A responsive sidebar for mapping libraries like <a href="http://leafletjs.com/">Leaflet</a> or <a href="http://openlayers.org/">OpenLayers</a>.</p>
+                <p class="lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p class="lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p class="lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p class="lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="sidebar-pane" id="profile">
+                <h1 class="sidebar-header">Profile<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1> </div>
+            <div class="sidebar-pane" id="messages">
+                <h1 class="sidebar-header">Messages<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1> </div>
+            <div class="sidebar-pane" id="settings">
+                <h1 class="sidebar-header">Settings<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1> </div>
+        </div>
+    </div>
+    <div id="map" class="sidebar-map"> </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
     <script src='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js'></script>
@@ -46,6 +82,7 @@
     <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
     <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="libs/sidebar-v2/leaflet-sidebar.js"></script>
     <script>
         // create map
         L.mapbox.accessToken = 'pk.eyJ1IjoibWlrdXMzMSIsImEiOiJjanVrNGgyaTIxcDNpM3lwaXB3dnowa2VpIn0.uNKvtTY9Is0M7xKSl_ukjQ';
@@ -72,7 +109,9 @@
             placeName = 'Reykjavik'
             url = 'https://apifree.forvo.com/key/f08a91897cb826f93096d8ea72e87c4e/format/json/action/word-pronunciations/word/' + placeName + '/language/en'
             getPath(url);
-        })
+        });
+        // add sidebar to map
+        var sidebar = L.control.sidebar('sidebar').addTo(map);
 
         function drawPlaces(data) {
             var places = L.geoJson(data);
