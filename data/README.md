@@ -37,6 +37,14 @@ Geoprocessing Tools:
 * [Pandas](https://pandas.pydata.org/)
 * [Geopandas](http://geopandas.org/)
 * [Jupyter Notebook](https://jupyter.org/)
+* [Mapbox Studio](https://www.mapbox.com/)
+
+Other Tools:
+
+* [Brackets](http://brackets.io/)
+* [GitHub](https://github.com/)
+* [GitHub Desktop](https://desktop.github.com/)
+* [Slack](https://slack.com/)
 
 Reading Material:
 

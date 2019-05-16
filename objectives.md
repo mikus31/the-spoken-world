@@ -21,10 +21,11 @@ An interactive worldwide map of place name pronunciations.
 * Easter Egg idea: Record Louis Fitzmorris for the Abita Springs pronunciation
 * Easter Egg idea: Hide map author info in the Slidell pronunciation
 * Easter Egg idea: Record Asher Eng (cousin responsible for map inspiration) for the Los Angeles pronunciation  
-* Add collapsible sidebar for map title, metadata, etc.
-* Add permanent sidebar for zoom controls, audio controls, search, etc. 
+* ~~Add collapsible sidebar for map title, metadata, etc.~~
+* Add audio controls 
 * Add spelling / phonetic spelling near the audio controls?
 * Add user history to the sidebar?
+* Allow user to select language?
 * Add map title
 * Add map metadata
 * Finish map styling

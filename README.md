@@ -48,19 +48,19 @@ Anticipated tools for data manipulation and analysis include the following:
 * Pandas
 * Geopandas
 
-Front-end data for the web map will be produced as a GeoJSON-CSV stack.
+Front-end data for the web map will be produced as a GeoJSON.
 
-The web map will be accessible via a web browser on both desktop and mobile devices. The anticipated technology stack for the web map is HTML-CSS-JS-Leaflet, as well as any necessary JS libraries. For example, the web map will need a library for its universal search functionality.
+The web map will be accessible via a web browser on both desktop and mobile devices. The anticipated technology stack for the web map is HTML-CSS-Leaflet, as well as any necessary JavaScript libraries. For example, the web map will need a library for its universal search functionality.
 
 ![uni search bar](/images/search-bar.png "Universal Search Bar Mockup")
 
-Data on the map will be visualized as polygon and point features. A muted, mono-color styling will be applied to continent-level polygon features. A classified choropleth styling will be applied to country-level polygon features, as in a political map. Point features will be symbolized proportionally by population size.
+Data on the map will be visualized as point features on top of a custom-built basemap using [Mapbox](https://www.mapbox.com/) Studio. Point features will be styled according to the web map's overall color scheme, and will utilize custom symbology via the [Noun Project](https://thenounproject.com/).
 
 Users will be invited to interact with the map immediately on the splash page. The search bar will feature prominently on the center of the screen, encouraging users to begin by typing in a place name. Alternatively, the user will be given the option to explore the map manually by clicking a button beneath the search bar to bypass the search functionality.
 
 ![desktop splash page](/images/splash-page-mockup.png "Splash Page on Desktop")
 
-After zooming into the map to the country level, place names will appear. Users will be able to click on these place names. A popup will appear with information about the place, including a pronunciation file that can be played.
+After zooming into the map to the country level, individual point features will appear. Users will be able to click on these point features to retrieve information about the place, including place name and a pronunciation audio file that can be played by the user.
 
 ![iceland with sound icons](/images/ice-with-sound.png "Iceland")
 
