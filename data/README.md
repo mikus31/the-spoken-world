@@ -30,7 +30,7 @@ Development and Design:
 * [ColorSupplyyy](https://colorsupplyyy.com/app) via [Steven Scott](http://stevescott.com.au/)
 * [Google Icons](https://material.io/)
 
-Geoprocessing Tools:
+Geoprocessing & Other Tools:
 
 * [QGIS](https://qgis.org/en/site/)
 * [Python](https://www.python.org/)
@@ -38,9 +38,6 @@ Geoprocessing Tools:
 * [Geopandas](http://geopandas.org/)
 * [Jupyter Notebook](https://jupyter.org/)
 * [Mapbox Studio](https://www.mapbox.com/)
-
-Other Tools:
-
 * [Brackets](http://brackets.io/)
 * [GitHub](https://github.com/)
 * [GitHub Desktop](https://desktop.github.com/)
