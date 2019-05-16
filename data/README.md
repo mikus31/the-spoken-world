@@ -48,6 +48,7 @@ Other Tools:
 
 Reading Material:
 
-* [Quartz: Google wants to teach you how to say place names like a local](https://qz.com/338341/google-wants-to-teach-you-how-to-say-place-names-like-a-local/)
+* Quartz: [Google wants to teach you how to say place names like a local](https://qz.com/338341/google-wants-to-teach-you-how-to-say-place-names-like-a-local/)
+* Business Insider: [From 'Balmor' to 'Trono': How to pronounce city and state names like the locals](https://www.businessinsider.com/how-locals-pronounce-city-names-2014-9-2)
 
 
