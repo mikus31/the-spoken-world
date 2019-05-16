@@ -32,25 +32,22 @@ Anticipated data sources include the following:
 * [Wikipedia](https://commons.wikimedia.org/wiki/Category:Pronunciation_of_names_of_cities)
 * [Natural Earth](http://www.naturalearthdata.com/)
 * [NGA GEOnet Names Server](http://geonames.nga.mil/gns/html/index.html)
-* [Equal Earth Area Projection](https://observablehq.com/@d3/equal-earth)
-* [inogolo](https://inogolo.com/)
 * [Forvo](https://forvo.com/)
-* [Pronounce](https://pronounce.voanews.com/index.php)
-* [howjsay](https://howjsay.com/)
-* [The Name Engine](https://www.thenameengine.com/category/On%20The%20Map/226)
+* [Mapbox](https://www.mapbox.com/)
 
-Anticipated tools for data manipulation and analysis include the following:
+Anticipated tools for data management include the following:
 
-* QGIS
-* Microsoft Excel
-* Python
-* Jupyter Notebook
-* Pandas
-* Geopandas
+* [QGIS](https://qgis.org/en/site/)
+* [Python](https://www.python.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Geopandas](http://geopandas.org/)
+* [Jupyter Notebook](https://jupyter.org/)
+* [Microsoft Excel](https://products.office.com/en-us/excel)
+* [Notepad++](https://notepad-plus-plus.org/)
 
 Front-end data for the web map will be produced as a GeoJSON.
 
-The web map will be accessible via a web browser on both desktop and mobile devices. The anticipated technology stack for the web map is HTML-CSS-Leaflet, as well as any necessary JavaScript libraries. For example, the web map will need a library for its universal search functionality.
+The web map will be accessible via a web browser on both desktop and mobile devices. The anticipated technology stack for the web map is HTML-CSS-[Leaflet](https://leafletjs.com/), as well as any necessary JavaScript libraries. For example, the web map will need [a library for its universal search functionality](https://github.com/stefanocudini/leaflet-search).
 
 ![uni search bar](/images/search-bar.png "Universal Search Bar Mockup")
 
@@ -68,6 +65,8 @@ Aesthetically, the plan is to use web applications to drive the design of the ma
 
 * [ColorSupplyyy](https://colorsupplyyy.com/app)
 * [Google Fonts](https://fonts.google.com/)
+* [Google Icons](https://material.io/)
+* [The Noun Project](https://thenounproject.com/term/sound/1226989/#)
 
 The overall aesthetic will be a simple design with bright, contemporary colors and modern, complementary fonts. The user will be given the option to toggle between light and dark modes.
 

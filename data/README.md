@@ -45,6 +45,7 @@ Other Tools:
 * [GitHub](https://github.com/)
 * [GitHub Desktop](https://desktop.github.com/)
 * [Slack](https://slack.com/)
+* [Notepad++](https://notepad-plus-plus.org/)
 
 Reading Material:
 
