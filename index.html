@@ -95,7 +95,7 @@
             </div>
         </div>
     </div>
-    <div id="audio"></div>
+    <div id="sound"></div>
     <div id="map" class="sidebar-map"> </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
@@ -127,7 +127,7 @@
         $.getJSON("data/places-newtable.geojson", function (data) {
             drawPlaces(data);
         });
-        d3.select('#pronun').on('click', function () {
+        d3.select('#sound').on('click', function () {
             placeName = 'Reykjavik'
             url = 'https://apifree.forvo.com/key/f08a91897cb826f93096d8ea72e87c4e/format/json/action/word-pronunciations/word/' + placeName + '/language/en'
             getPath(url);
