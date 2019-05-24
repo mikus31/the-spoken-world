@@ -19,7 +19,7 @@ An interactive worldwide map of place name pronunciations.
 * ~~Add map title~~
 * Style/locate the audio controls on the map below the zoom in/out buttons
 * When user clicks point feature, send the place name to Forvo to fetch pronunciation and return audio to the map
-* When user clicks point feature, add to the audio log in the sidebar.
+* When user clicks point feature, add to the audio log in the sidebar
 * Add welcome / search / browse the map popup when the map is loaded for the first time
 * Add map metadata
 * Finish map styling
