@@ -14,21 +14,22 @@ An interactive worldwide map of place name pronunciations.
 * ~~If using country polygons > basemap, only show points within user selected country~~
 * ~~If using country polygons > basemap, custom style the selected country / adjacent countries~~
 * ~~If using country polygons > basemap, add hover-over and click events to country polygons~~
-* Only display point features that have pronunciations? To reduce data load on website
-* Integrate Forvo API
-* Wrangle data
-* Add Light Mode / Dark Mode switch?
-* Easter Egg idea: Record Louis Fitzmorris for the Abita Springs pronunciation
-* Easter Egg idea: Hide map author info in the Slidell pronunciation
-* Easter Egg idea: Record Asher Eng (cousin responsible for map inspiration) for the Los Angeles pronunciation  
+* ~~Integrate Forvo API~~
 * ~~Add collapsible sidebar for map title, metadata, etc.~~
-* Add audio controls 
-* Add spelling / phonetic spelling near the audio controls?
-* Add user history to the sidebar?
-* Allow user to select language?
-* Add map title
+* ~~Add map title~~
+* Style/locate the audio controls on the map below the zoom in/out buttons
+* When user clicks point feature, send the place name to Forvo to fetch pronunciation and return audio to the map
+* When user clicks point feature, add to the audio log in the sidebar.
+* Add welcome / search / browse the map popup when the map is loaded for the first time
 * Add map metadata
 * Finish map styling
+* Only display point features that have pronunciations? To reduce data load on website
+* Add Light Mode / Dark Mode switch?
+* Add spelling / phonetic spelling near the audio controls?
+* Allow user to select language?
+* Easter Egg idea: Record Louis Fitzmorris for the Abita Springs pronunciation?
+* Easter Egg idea: Hide map author info in the Slidell pronunciation?
+* Easter Egg idea: Record Asher Eng (cousin responsible for map inspiration) for the Los Angeles pronunciation?  
 
 ---
 *Mapping project proposal by Michael McNeil for [New Maps Plus](https://newmapsplus.as.uky.edu/) at the [University of Kentucky](http://www.uky.edu/UKHome/).*
