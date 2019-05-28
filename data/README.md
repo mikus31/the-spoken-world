@@ -3,8 +3,8 @@
 Data Sources:
 
 * [Natural Earth](http://www.naturalearthdata.com/)
-* [Mapbox](https://api.mapbox.com/styles/v1/mikus31/cjajul8jxb6212rq7ly2wgenz.html?fresh=true&title=true&access_token=pk.eyJ1IjoibWlrdXMzMSIsImEiOiJjanVrNGgyaTIxcDNpM3lwaXB3dnowa2VpIn0.uNKvtTY9Is0M7xKSl_ukjQ#11.8/64.143501/-21.896317/0)
-* [Forvo](https://forvo.com/tag/cities/)
+* [Mapbox](https://www.mapbox.com/)
+* [Forvo](https://forvo.com/)
 
 Libraries:
 
