@@ -52,7 +52,7 @@
 </head>
 
 <body>
-    <button id="sound">reykjavik</button>
+    <button id="sound">click for audio</button>
     <div id="sidebar" class="sidebar collapsed">
         <!-- Nav tabs -->
         <div class="sidebar-tabs">
@@ -132,11 +132,6 @@
         $.getJSON("data/places-newtable.geojson", function (data) {
             drawPlaces(data);
         });
-        d3.select('#sound').on('click', function () {
-            placeName = 'Reykjavik'
-            url = 'https://apifree.forvo.com/key/f08a91897cb826f93096d8ea72e87c4e/format/json/action/word-pronunciations/word/' + placeName + '/language/en'
-            getPath(url);
-        });
         // add sidebar to map
         var sidebar = L.control.sidebar('sidebar').addTo(map);
 
@@ -163,6 +158,12 @@
                 marker.bindTooltip(placesPopup);
                 // add the individual markers to the markerClusterGroup
                 markers.addLayer(marker);
+                d3.select('#sound').on('click', function () {
+                    placeName = placesPopup;
+                    // placeName = 'Reykjavik';
+                    url = 'https://apifree.forvo.com/key/f08a91897cb826f93096d8ea72e87c4e/format/json/action/word-pronunciations/word/' + placeName + '/language/en'
+                    getPath(url);
+                });
             });
             // add the markerClusterGroup to the map
             map.addLayer(markers);
