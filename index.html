@@ -55,7 +55,6 @@
             left: 61px;
             position: absolute;
         }
-        
         /*#audio { z-index: 1999; top: 150px; left: 61px; position: absolute; }*/
     </style>
 </head>
@@ -119,7 +118,7 @@
     </div>
     <div id="map" class="sidebar-map">
         <button id="sound">click for audio</button>
-<!--        <audio controls></audio>-->
+        <!--        <audio controls></audio>-->
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
@@ -179,6 +178,9 @@
                 markers.addLayer(marker);
                 d3.select('#sound').on('click', function () {
                     placeName = placesPopup;
+                    // trying some things here ...
+                    // need to pass the clicked feature place name to forvo to retrieve the sound file ...
+                    // buttonClick(placesPopup);
                     // placeName = 'Reykjavik';
                     url = 'https://apifree.forvo.com/key/f08a91897cb826f93096d8ea72e87c4e/format/json/action/word-pronunciations/word/' + placeName + '/language/en'
                     getPath(url);
