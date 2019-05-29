@@ -56,12 +56,7 @@
             position: absolute;
         }
         
-        #audio-control-box {
-            z-index: 1999;
-            top: 150px;
-            left: 61px;
-            position: absolute;
-        }
+        /*#audio { z-index: 1999; top: 150px; left: 61px; position: absolute; }*/
     </style>
 </head>
 
@@ -124,7 +119,7 @@
     </div>
     <div id="map" class="sidebar-map">
         <button id="sound">click for audio</button>
-        <div id="audio-control-box"></div>
+<!--        <audio controls></audio>-->
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
@@ -211,7 +206,7 @@
                     let mp3Path = data.items[0].pathmp3;
                     let oggPath = data.items[0].pathogg;
                     d3.select('audio').remove();
-                    d3.select('audio-control-box').append('audio').attr('controls', '').append('source').attr('type', 'audio/mpeg').attr('src', mp3Path)
+                    d3.select('body').append('audio').attr('controls', '').append('source').attr('type', 'audio/mpeg').attr('src', mp3Path)
                     d3.select('audio').append('source').attr('type', 'audio/ogg').attr('src', oggPath)
                 }
             })
