@@ -17,9 +17,6 @@ Libraries:
 * [d3-fetch](https://github.com/d3/d3-fetch)
 * [d3-dsv](https://github.com/d3/d3-dsv)
 * [Leaflet sidebar-v2](https://github.com/Turbo87/sidebar-v2)
-
-Libraries (not yet used):
-
 * [Leaflet Search](https://github.com/stefanocudini/leaflet-search)
 
 Development and Design:
