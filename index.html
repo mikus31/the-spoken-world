@@ -185,13 +185,17 @@
                 marker.bindTooltip(placesPopup);
                 // add the individual markers to the markerClusterGroup
                 markers.addLayer(marker);
-                d3.select('#sound').on('click', function () {
-                    placeName = placesPopup;
-                    // trying some things here ...
-                    // need to pass the clicked feature place name to forvo to retrieve the corresponding sound file ...
-                    // buttonClick(this);
-                    // placeName = 'Reykjavik';
-                    url = 'https://apifree.forvo.com/key/f08a91897cb826f93096d8ea72e87c4e/format/json/action/word-pronunciations/word/' + placeName + '/language/en'
+                /*d3.select('#sound').on('click', function () { placeName = placesPopup; // trying some things here ... // need to pass the clicked feature place name to forvo to retrieve the corresponding sound file ... // buttonClick(this); // placeName = 'Reykjavik'; url = 'https://apifree.forvo.com/key/f08a91897cb826f93096d8ea72e87c4e/format/json/action/word-pronunciations/word/' + placeName + '/language/en' getPath(url); });*/
+                marker.feature = {
+                    properties: {
+                        placeName: props.nameascii
+                    }
+                }
+                marker.on('click', function () {
+                    let placeName = this.feature.properties.placeName;
+                    console.log(placeName)
+                    let url = 'https://apifree.forvo.com/key/f08a91897cb826f93096d8ea72e87c4e/format/json/action/word-pronunciations/word/' + placeName + '/language/en';
+                    console.log(url)
                     getPath(url);
                 });
             });
@@ -201,27 +205,27 @@
 
         function getPath(path) {
             $.ajax({
-                url: path
-                , type: 'GET'
-                , dataType: 'jsonp'
-                , cors: true
-                , contentType: 'application/json'
-                , secure: true
-                , headers: {
-                    'Access-Control-Allow-Origin': '*'
-                , }
-                , beforeSend: function (xhr) {
-                    xhr.setRequestHeader("Authorization", "Basic " + btoa(""));
-                }
-                , success: function (data) {
-                    let mp3Path = data.items[0].pathmp3;
-                    let oggPath = data.items[0].pathogg;
-                    d3.select('audio').remove();
-                    d3.select('body').append('audio').attr('controls', '').append('source').attr('type', 'audio/mpeg').attr('src', mp3Path)
-                    d3.select('audio').append('source').attr('type', 'audio/ogg').attr('src', oggPath)
-                }
-            })
-            console.log(url);
+                    url: path
+                    , type: 'GET'
+                    , dataType: 'jsonp'
+                    , cors: true
+                    , contentType: 'application/json'
+                    , secure: true
+                    , headers: {
+                        'Access-Control-Allow-Origin': '*'
+                    , }
+                    , beforeSend: function (xhr) {
+                        xhr.setRequestHeader("Authorization", "Basic " + btoa(""));
+                    }
+                    , success: function (data) {
+                        let mp3Path = data.items[0].pathmp3;
+                        let oggPath = data.items[0].pathogg;
+                        d3.select('audio').remove();
+                        d3.select('body').append('audio').attr('controls', '').append('source').attr('type', 'audio/mpeg').attr('src', mp3Path)
+                        d3.select('audio').append('source').attr('type', 'audio/ogg').attr('src', oggPath)
+                    }
+                })
+                // console.log(url);
         }
     </script>
 </body>
