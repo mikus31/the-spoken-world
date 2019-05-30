@@ -182,7 +182,9 @@
         // add sidebar to map
         var sidebar = L.control.sidebar('sidebar').addTo(map);
         sidebar.open('home');
-
+        // add function to close sidebar when user zooms in
+        // map.setZoom in drawPlaces is causing this to fire when the page loads ... is there a way to delay this function until the user zooms in?
+        /*map.on('zoom', function () { sidebar.close(); });*/
         function drawPlaces(data) {
             var places = L.geoJson(data);
             // set the zoom/center to the extent of the geojson
@@ -252,6 +254,9 @@
                         d3.select('audio').remove();
                         d3.select('body').append('audio').attr('controls', '').append('source').attr('type', 'audio/mpeg').attr('src', mp3Path)
                         d3.select('audio').append('source').attr('type', 'audio/ogg').attr('src', oggPath)
+                    }
+                    , failure: function (data) {
+                        console.log('uh oh, no audio file!')
                     }
                 })
                 // console.log(url);
