@@ -58,7 +58,7 @@
         
         audio {
             z-index: 1999;
-            bottom: 40px;
+            bottom: 13px;
             left: 61px;
             position: absolute;
         }
@@ -124,7 +124,7 @@
         </div>
     </div>
     <div id="map" class="sidebar-map">
-        <button id="sound">click for audio</button>
+        <!--        <button id="sound">click for audio</button>-->
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
@@ -165,7 +165,7 @@
             // set the zoom/center to the extent of the geojson
             map.fitBounds(places.getBounds());
             // and then zoom in a tad
-            // map.setZoom(map.getZoom() + .5);
+            map.setZoom(map.getZoom() + .5);
             // set the max bounds to prevent user from scrolling beyond bounds?
             map.setMaxBounds(map.getBounds());
             // create new markerClusterGroup
