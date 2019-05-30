@@ -86,7 +86,7 @@
             <div class="sidebar-pane" id="home">
                 <h1 class="sidebar-header">The Spoken World<span class="sidebar-close"><i class="material-icons">chevron_left</i></span>
                 </h1>
-                <p>An interactive worldwide map of place-name pronunciations.</p>
+                <p>An interactive worldwide map of place-name pronunciations. Read more about the project <a href='https://github.com/mikus31/the-spoken-world' target="_blank">on GitHub</a>.</p>
                 <h2>Data Sources</h2>
                 <p>Populated places point data from <a href='http://www.naturalearthdata.com/' target="_blank">Natural Earth</a>.</p>
                 <p>Custom basemap created in <a href='https://www.mapbox.com/' target="_blank">Mapbox Studio</a>.</p>
@@ -157,6 +157,7 @@
         });
         // add sidebar to map
         var sidebar = L.control.sidebar('sidebar').addTo(map);
+        sidebar.open('home');
 
         function drawPlaces(data) {
             var places = L.geoJson(data);

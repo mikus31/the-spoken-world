@@ -20,9 +20,9 @@ An interactive worldwide map of place name pronunciations.
 * ~~Style/locate the audio controls on the map below the zoom in/out buttons~~
 * ~~Add map metadata~~
 * ~~Finish map styling~~
+* ~~Add welcome / search / browse the map popup when the map is loaded for the first time~~
 * When user clicks point feature, send the place name to Forvo to fetch pronunciation and return audio to the map
 * When user clicks point feature, add to the audio log in the sidebar
-* Add welcome / search / browse the map popup when the map is loaded for the first time
 * Only display point features that have pronunciations? To reduce data load on website
 * Add Light Mode / Dark Mode switch?
 * Add spelling / phonetic spelling near the audio controls?
