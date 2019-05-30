@@ -29,6 +29,7 @@ Development and Design:
 * [The Noun Project](https://thenounproject.com/term/sound/1226989/#)
 * [ColorSupplyyy](https://colorsupplyyy.com/app) via [Steven Scott](http://stevescott.com.au/)
 * [Google Icons](https://material.io/)
+* [Share Link Generator](http://www.sharelinkgenerator.com/)
 
 Geoprocessing & Other Tools:
 
