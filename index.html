@@ -148,8 +148,20 @@
     <script>
         // create map
         L.mapbox.accessToken = 'pk.eyJ1IjoibWlrdXMzMSIsImEiOiJjanVrNGgyaTIxcDNpM3lwaXB3dnowa2VpIn0.uNKvtTY9Is0M7xKSl_ukjQ';
-        var map = L.mapbox.map('map').addLayer(L.mapbox.styleLayer('mapbox://styles/mikus31/cjajul8jxb6212rq7ly2wgenz'));
-        // .setView([65, -19], 7)
+        // add light mode and dark mode here
+        var lightMode = L.mapbox.styleLayer('mapbox://styles/mikus31/cjajul8jxb6212rq7ly2wgenz')
+            , darkMode = L.mapbox.styleLayer('mapbox://styles/mikus31/cjuvg0hhxc3011fpo0h58juwq');
+        // initialize the map in lightMode
+        var map = L.map('map', {
+            layers: [lightMode]
+        });
+        // create text for basemap switcher box
+        var baseMaps = {
+            "Light Mode": lightMode
+            , "Dark Mode": darkMode
+        };
+        // add the basemap switcher box to the map
+        L.control.layers(baseMaps).addTo(map);
         // allow map to access user's location?
         /*map.locate({
             setView: true
