@@ -181,6 +181,10 @@
             map.setMaxBounds(map.getBounds());
             // create new markerClusterGroup
             var markers = L.markerClusterGroup();
+            // close the sidebar when cluster is clicked
+            markers.on('clusterclick', function () {
+                sidebar.close();
+            });
             // loop through all the features
             data.features.forEach(function (feature) {
                 // create a new Leaflet marker for each
