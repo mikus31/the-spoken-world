@@ -249,12 +249,15 @@
                         xhr.setRequestHeader("Authorization", "Basic " + btoa(""));
                     }
                     , success: function (data) {
-                        let mp3Path = data.items[0].pathmp3;
-                        let oggPath = data.items[0].pathogg;
-                        d3.select('audio').remove();
-                        d3.select('body').append('audio').attr('controls', '').append('source').attr('type', 'audio/mpeg').attr('src', mp3Path)
-                        d3.select('audio').append('source').attr('type', 'audio/ogg').attr('src', oggPath)
-                    }
+                            let mp3Path = data.items[0].pathmp3;
+                            let oggPath = data.items[0].pathogg;
+                            d3.select('audio').remove();
+                            d3.select('body').append('audio').attr('controls', '').append('source').attr('type', 'audio/mpeg').attr('src', mp3Path)
+                            d3.select('audio').append('source').attr('type', 'audio/ogg').attr('src', oggPath)
+                        }
+                        // what if forvo does not have a pronunciation yet for a place? 
+                        // can create a failure function to drive users to the forvo site to submit one?    
+                        
                     , failure: function (data) {
                         console.log('uh oh, no audio file!')
                     }
